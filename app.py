@@ -19,7 +19,7 @@ def get_author_info():
 
 # ======== جلب التوكن من API خارجي ========
 def fetch_token():
-    url = "https://ff-token-generator.vercel.app/token?uid=4065197031&password=8C120F572AC766DE7C74ADE8DA4C662EBACC3820B0204D0082632E83AFE53989"
+    url = "https://jwt-gen-api-v2.onrender.com/token?uid=3831627617&password=CAC2F2F3E2F28C5F5944D502CD171A8AAF84361CDC483E94955D6981F1CFF3E3"
     try:
         response = requests.get(url)
         app.logger.info("📡 استجابة API: %s", response.text)
