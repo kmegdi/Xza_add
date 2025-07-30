@@ -91,7 +91,7 @@ def send_friend_request(player_id):
             "Authorization": f"Bearer {TOKEN}",
             "X-Unity-Version": "2018.4.11f1",
             "X-GA": "v1 1",
-            "ReleaseVersion": "OB49",
+            "ReleaseVersion": "OB50",
             "Content-Type": "application/x-www-form-urlencoded",
             "Content-Length": str(len(encrypted_payload)),
             "User-Agent": "Dalvik/2.1.0 (Linux; Android 9)",
